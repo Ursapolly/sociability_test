@@ -2,7 +2,7 @@
 
 Поможет вам понять, насколько вы общительны (или необщительны:))
 
-[Источник теста](http://syntone.ru/psytesty/vash-uroven-obshhitelnosti/)
+Учебная программа, [источник теста](http://syntone.ru/psytesty/vash-uroven-obshhitelnosti/)
 
 ## Требования
 
