@@ -11,8 +11,8 @@ if Gem.win_platform?
   end
 end
 
-require_relative 'test'
-require_relative 'result_printer'
+require_relative 'lib/test'
+require_relative 'lib/result_printer'
 
 name = ARGV[0]
 
