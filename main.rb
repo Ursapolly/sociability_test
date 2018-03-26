@@ -30,9 +30,7 @@ puts
 test = Test.new(questions_path)
 result = ResultPrinter.new(results_path)
 
-until test.finished?
-  test.ask_question
-end
+test.ask_question until test.finished?
 
 puts "\n#{name}"
 puts "\nВаш результат (#{test.score} баллов): #{result.print_result(test)}"
