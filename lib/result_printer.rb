@@ -2,11 +2,9 @@
 
 class ResultPrinter
   def initialize(result_path)
-
     unless File.exist?(result_path)
       abort "Файл с результатами #{result_path} не найден."
     end
-
     f = File.new(result_path, 'r:UTF-8')
     @results = f.readlines
     f.close
